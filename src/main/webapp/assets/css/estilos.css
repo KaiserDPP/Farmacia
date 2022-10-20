@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+p {
+	font-size: 18px;
+	color: RED;
+	text-align: right;
+}
+
+#parrafo_verde {
+	font-size: 24px;
+	color: GREEN;
+	text-align: center;
+}
+
+.parrafos {
+	font-size: 21px;
+	color: GREY;
+	text-align: justify;
+}
+
+.fondo_negro {
+	background-color: BLACK;
+}
+
+
+/*En W3Schools podemos consultar la compatibilidad de cada estilo con 
+los distintos navegadores. */
+
+
+#borde1 {
+	border: 6px solid red;
+}
+/*
+	Solo podemos poner 2px 4px 4px 2px en margin y padding
+	No funciona en BORDER
+	Si queremos poner un border en un lado especifico, 
+	tenemos que usar border-top, border-bottom, border-left o border-right
+	*/
+.marginado {
+	margin: 25px 50px 75px 100px;
+	padding: 25px 50px 75px 100px;
+	border: 3px;
+	border-style: solid;
+	border-color: black;
+}
+/*
+hr {
+	border-width: 1px !important;
+	border-style: inset;	
+	width: 70%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+hr.grand {
+	margin-top: 150px !important;
+	margin-bottom: 150px !important;
+}
+
+hr.trait_rojo {
+	color: #b11f2a;
+}
+
+hr.trait_azul {
+	color: #2ea3f2;
+}*/
+
+img.zindex{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+p .zindex{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+#skyrim {
+	background: url(../img/the-elder-scrolls-v-skyrim-28752-wp.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
